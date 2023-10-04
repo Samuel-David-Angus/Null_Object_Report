@@ -1,3 +1,5 @@
+package Pets;
+
 public class Pet {
     private String type;
     private String name;

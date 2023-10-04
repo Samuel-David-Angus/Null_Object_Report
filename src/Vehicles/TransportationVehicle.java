@@ -1,4 +1,6 @@
-public class TransportationVehicle implements Vehicle{
+package Vehicles;
+
+public class TransportationVehicle implements Vehicle {
     private int capacity;
     private String type;
     private String brand;

@@ -1,4 +1,6 @@
-public class NullVehicle implements Vehicle{
+package Vehicles;
+
+public class NullVehicle implements Vehicle {
     @Override
     public void ride() {
         System.out.println("No vehicle");

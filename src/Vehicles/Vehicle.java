@@ -1,3 +1,5 @@
+package Vehicles;
+
 public interface Vehicle {
     void ride();
     int getCapacity();

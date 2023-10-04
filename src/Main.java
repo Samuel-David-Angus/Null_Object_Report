@@ -1,3 +1,12 @@
+import Persons.IdentifiedPerson;
+import Persons.NullPerson;
+import Persons.Person;
+import Pets.NullPet;
+import Pets.Pet;
+import Vehicles.NullVehicle;
+import Vehicles.TransportationVehicle;
+import Vehicles.Vehicle;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -5,11 +14,13 @@ public class Main {
         NullPerson nullPerson = new NullPerson();
         NullPet nullPet = new NullPet();
         NullVehicle nullVehicle = new NullVehicle();
+
         Person mom = nullPerson;
         Person dad = nullPerson;
         Person child = nullPerson;
         Pet pet = nullPet;
         Vehicle vehicle = nullVehicle;
+
         String input1;
         String input2;
 
@@ -19,7 +30,7 @@ public class Main {
         System.out.println("Last name: ");
         input2 = scanner.nextLine();
         if (input1.length() > 0 && input2.length() > 0) {
-            mom = new Person(input1,input2);
+            mom = new IdentifiedPerson(input1,input2);
         }
 
         System.out.println("Father info");
@@ -28,7 +39,7 @@ public class Main {
         System.out.println("Last name: ");
         input2 = scanner.nextLine();
         if (input1.length() > 0 && input2.length() > 0) {
-            dad = new Person(input1,input2);
+            dad = new IdentifiedPerson(input1,input2);
         }
 
         System.out.println("Child info");
@@ -37,7 +48,7 @@ public class Main {
         System.out.println("Last name: ");
         input2 = scanner.nextLine();
         if (input1.length() > 0 && input2.length() > 0) {
-            child = new Person(input1,input2);
+            child = new IdentifiedPerson(input1,input2);
         }
 
         System.out.println("Pet info");

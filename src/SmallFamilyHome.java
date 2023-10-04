@@ -1,3 +1,7 @@
+import Persons.Person;
+import Pets.Pet;
+import Vehicles.Vehicle;
+
 public class SmallFamilyHome {
     private Person mother;
     private Person father;
@@ -14,7 +18,6 @@ public class SmallFamilyHome {
     }
 
     public void displayInfo() {
-/*
         if (mother != null) {
             System.out.println("Mother: " + mother.fullName());
         } else {
@@ -31,11 +34,11 @@ public class SmallFamilyHome {
             System.out.println("Child: ----");
         }
         if (pet != null) {
-            System.out.println("Pet type: " + pet.getType());
-            System.out.println("Pet name: " + pet.getName());
+            System.out.println("Pets.Pet type: " + pet.getType());
+            System.out.println("Pets.Pet name: " + pet.getName());
         } else {
-            System.out.println("Pet type: ----");
-            System.out.println("Pet name: ----");
+            System.out.println("Pets.Pet type: ----");
+            System.out.println("Pets.Pet name: ----");
         }
         if (vehicle != null) {
             System.out.println("Vehicle Type: " + vehicle.getType());
@@ -48,14 +51,16 @@ public class SmallFamilyHome {
             System.out.println("Vehicle Capacity: ----");
             System.out.println("No vehicle");
         }
-*/
+        /*
         System.out.println("Mother: " + mother.fullName());
         System.out.println("Father: " + father.fullName());
         System.out.println("Child: " + child.fullName());
-        System.out.println("Pet type: " + pet.getType());
-        System.out.println("Pet name: " + pet.getName());
+        System.out.println("Pets.Pet type: " + pet.getType());
+        System.out.println("Pets.Pet name: " + pet.getName());
         System.out.println("Vehicle Type: " + vehicle.getType());
         System.out.println("Vehicle brand: " + vehicle.getBrand());
         System.out.println("Vehicle capacity: " + vehicle.getCapacity());
+
+         */
     }
 }
